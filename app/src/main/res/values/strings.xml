@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="texto_boton">Siguiente</string>
+    <string name="elegir_fecha">Selecciona la fecha de nacimiento</string>
+    <string name="fecha_elegida"></string>
+    <string name="tv_fecha_seleccionada">Fecha de nacimiento: </string>
+    <string name="nombre_obtenido"></string>
+    <string name="telefono_obtenido"></string>
+    <string name="email_obtenido"></string>
+    <string name="descripcion_obtenida"></string>
+    <string name="fecha_obtenida"></string>
+    <string name="nombre2">Nombre: </string>
+    <string name="telefono2">Telefono: </string>
+    <string name="email2">Email:</string>
+    <string name="descripcion2">Descripcion: </string>
+    <string name="texto_boton_volver">Editar datos</string>
+</resources>

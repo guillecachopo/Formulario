@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guill.formulario.SegundaActivity">
+
+
+    <LinearLayout
+        android:id="@+id/llNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre2"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/tvNombreEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llNombre"
+        >
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_fecha_seleccionada"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"/>
+
+
+        <TextView
+            android:id="@+id/tvFechaEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llFecha"
+        >
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono2"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/tvTelefonoEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llTelefono"
+        >
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email2"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/tvEmailEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llEmail"
+        >
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion2"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/tvDescrEscrito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tam_texto"
+            android:textColor="@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llDescripcion"
+        android:onClick="irMainActivity"
+        android:layout_centerHorizontal="true"
+        android:text="@string/texto_boton_volver"
+        android:theme="@style/BotonRaised"/>
+
+
+
+
+</RelativeLayout>
